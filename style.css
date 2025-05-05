@@ -61,16 +61,6 @@ a:hover::after {
   width: 100%;
 }
 
-/* a{
-  padding: 0 10px; 
-  text-decoration: none;
-  color: rgb(36, 36, 36);
-}
-
-a:hover{
-  border-bottom: 2px solid gold;    
-} */
-
 
 .div2 {
   width: 100%;
@@ -111,39 +101,6 @@ a:hover{
   transform: translateX(0); /* Bring h1 to the normal position (from right) */
   opacity: 1; /* Make h1 visible */
 }
-
-
-/* .div2{
-  height: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  
-}
-.mdiv1{
-  display: flex;
-  flex-direction: column;
-  padding-left: 150px;
-  color: goldenrod;
-}
-
-h2{
-  font-size: 50px;
-
-}
-
-h1{
-  font-size: 50px;
-} */
-
-/* .div0{
-  width: 100%;
-  height: 200px;
-  display: flex;
-  justify-content: flex-end;
-} */
-
-
 
 
 
