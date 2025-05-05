@@ -550,7 +550,7 @@ h1{
   background-color: goldenrod;
 }
 
-@media only screen and (max-width: 999px){
+@media only screen and (max-width: 600px){
   #skills{
       flex-direction: column;
       height: 80vh;
@@ -560,3 +560,232 @@ h1{
 
 
 /* ====================================Skills Section End=====================================  */
+
+/* ====================================Certification Section Start=====================================  */
+
+
+
+#certificate{
+  height: 120vh;
+  background-color: rgb(49, 49, 49);
+}
+
+.div12{
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#div12-h3{
+  color: goldenrod;
+  font-size: 50px;
+  font-weight: bold;
+  border-bottom: 2px solid goldenrod;
+}
+
+#container4{
+  display: flex;
+  flex-direction: column;
+}
+
+.div13{
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.div14{
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.mdiv6{
+  width: 300px;
+  height: 250px;
+  background-color: rgb(97, 96, 96);
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.mdiv6::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: gold;
+  transition: width 0.3s ease;
+}
+
+.mdiv6:hover::after {
+  width: 100%;
+}
+
+#div13-img{
+  width: 280px;
+  height: 250px;
+}
+
+#div13-h3{
+  color: rgb(221, 214, 214);
+  padding-top: 20px;
+  
+}
+
+@media only screen and (max-width: 600px){
+  #certificate{
+      height: 300vh;
+      background-color: rgb(221, 20, 20);
+  }
+
+  .div13{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+       margin-top: 300px;
+  }
+
+  .div14{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 550px;
+     
+        
+  }
+
+  
+}
+
+
+/* ====================================Certification Section End=====================================  */
+
+/* ====================================Contact Section Start=====================================  */
+
+#contact{
+  height: 100vh;
+  background-color: gray;
+}
+
+.div15{
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#div15-h3{
+  color: goldenrod;
+  font-size: 50px;
+  font-weight: bold;
+  border-bottom: 2px solid goldenrod;
+}
+
+.div16{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px 50px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+input{
+  width: 500px;
+  height: 30px;
+  background-color: rgba(49, 49, 49);
+  border: none;
+  outline: none;
+  color: white;
+  /* position: relative;
+  transition: 0.3s ease; */
+}
+
+/* input:hover:after{
+  border-left: 1px solid goldenrod;
+} */
+
+#message{
+  width: 500px;
+  height: 80px;
+  background-color: rgba(49, 49, 49);
+  border: none;
+  outline: none;
+  color: white;
+}
+
+#contact-button{
+  width: 150px;
+  height: 40px;
+  margin-bottom: 100px;
+  background-color: rgb(49, 49, 49);
+  border: 1px solid goldenrod;
+  color: goldenrod;
+  cursor: pointer;
+}
+
+#contact-button:hover{
+  background-color: goldenrod;
+  color: white;
+}
+
+
+@media only screen and (max-width: 600px){
+  #contact{
+      height: 100vh;
+      background-color: rgb(221, 20, 20);
+  }
+
+  .div16{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 100px;
+  }
+
+  input{
+    width: 300px;
+    height: 30px;
+    background-color: rgba(49, 49, 49);
+    border: none;
+    outline: none;
+    color: white;
+   
+  }
+
+  #message{
+    width: 300px;
+    height: 80px;
+    background-color: rgba(49, 49, 49);
+    border: none;
+    outline: none;
+    color: white;
+  }
+
+  #contact-button{
+    margin-bottom: 100px;
+  }
+  
+}
+
+/* ====================================Contact Section End=====================================  */
